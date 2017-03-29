@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC2E9EE31E72123200C17DBD /* AccessControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2E9EE21E72123200C17DBD /* AccessControllerViewController.swift */; };
+		BC2E9EE71E72557400C17DBD /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2E9EE61E72557400C17DBD /* loginViewController.swift */; };
+		BC2E9EEB1E7279D900C17DBD /* myCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2E9EEA1E7279D900C17DBD /* myCartViewController.swift */; };
+		BCC0D0B81E6CC5C3004BB9EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC0D0B71E6CC5C3004BB9EB /* AppDelegate.swift */; };
+		BCC0D0BA1E6CC5C3004BB9EB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC0D0B91E6CC5C3004BB9EB /* DetailViewController.swift */; };
+		BCC0D0BD1E6CC5C3004BB9EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCC0D0BB1E6CC5C3004BB9EB /* Main.storyboard */; };
+		BCC0D0BF1E6CC5C3004BB9EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCC0D0BE1E6CC5C3004BB9EB /* Assets.xcassets */; };
+		BCC0D0C21E6CC5C3004BB9EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCC0D0C01E6CC5C3004BB9EB /* LaunchScreen.storyboard */; };
+		BCC0D0CD1E6CC5C3004BB9EB /* yangalHW8Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC0D0CC1E6CC5C3004BB9EB /* yangalHW8Tests.swift */; };
+		BCC0D0D81E6CC5C3004BB9EB /* yangalHW8UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC0D0D71E6CC5C3004BB9EB /* yangalHW8UITests.swift */; };
+		BCC0D0E61E6CC7AD004BB9EB /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC0D0E51E6CC7AD004BB9EB /* TableViewController.swift */; };
+		BCC0D0E81E6CCFE2004BB9EB /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC0D0E71E6CCFE2004BB9EB /* Product.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCC0D0C91E6CC5C3004BB9EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCC0D0AC1E6CC5C3004BB9EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCC0D0B31E6CC5C3004BB9EB;
+			remoteInfo = yangalHW8;
+		};
+		BCC0D0D41E6CC5C3004BB9EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCC0D0AC1E6CC5C3004BB9EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCC0D0B31E6CC5C3004BB9EB;
+			remoteInfo = yangalHW8;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC2E9EE21E72123200C17DBD /* AccessControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessControllerViewController.swift; sourceTree = "<group>"; };
+		BC2E9EE61E72557400C17DBD /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		BC2E9EEA1E7279D900C17DBD /* myCartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myCartViewController.swift; sourceTree = "<group>"; };
+		BCC0D0B41E6CC5C3004BB9EB /* yangalHW8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yangalHW8.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCC0D0B71E6CC5C3004BB9EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCC0D0B91E6CC5C3004BB9EB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		BCC0D0BC1E6CC5C3004BB9EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCC0D0BE1E6CC5C3004BB9EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCC0D0C11E6CC5C3004BB9EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCC0D0C31E6CC5C3004BB9EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCC0D0C81E6CC5C3004BB9EB /* yangalHW8Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yangalHW8Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCC0D0CC1E6CC5C3004BB9EB /* yangalHW8Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yangalHW8Tests.swift; sourceTree = "<group>"; };
+		BCC0D0CE1E6CC5C3004BB9EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCC0D0D31E6CC5C3004BB9EB /* yangalHW8UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yangalHW8UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCC0D0D71E6CC5C3004BB9EB /* yangalHW8UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yangalHW8UITests.swift; sourceTree = "<group>"; };
+		BCC0D0D91E6CC5C3004BB9EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCC0D0E51E6CC7AD004BB9EB /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		BCC0D0E71E6CCFE2004BB9EB /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCC0D0B11E6CC5C3004BB9EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCC0D0C51E6CC5C3004BB9EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCC0D0D01E6CC5C3004BB9EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCC0D0AB1E6CC5C3004BB9EB = {
+			isa = PBXGroup;
+			children = (
+				BCC0D0B61E6CC5C3004BB9EB /* yangalHW8 */,
+				BCC0D0CB1E6CC5C3004BB9EB /* yangalHW8Tests */,
+				BCC0D0D61E6CC5C3004BB9EB /* yangalHW8UITests */,
+				BCC0D0B51E6CC5C3004BB9EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCC0D0B51E6CC5C3004BB9EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCC0D0B41E6CC5C3004BB9EB /* yangalHW8.app */,
+				BCC0D0C81E6CC5C3004BB9EB /* yangalHW8Tests.xctest */,
+				BCC0D0D31E6CC5C3004BB9EB /* yangalHW8UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCC0D0B61E6CC5C3004BB9EB /* yangalHW8 */ = {
+			isa = PBXGroup;
+			children = (
+				BCC0D0B71E6CC5C3004BB9EB /* AppDelegate.swift */,
+				BCC0D0B91E6CC5C3004BB9EB /* DetailViewController.swift */,
+				BCC0D0BB1E6CC5C3004BB9EB /* Main.storyboard */,
+				BC2E9EEA1E7279D900C17DBD /* myCartViewController.swift */,
+				BC2E9EE61E72557400C17DBD /* loginViewController.swift */,
+				BCC0D0E71E6CCFE2004BB9EB /* Product.swift */,
+				BCC0D0E51E6CC7AD004BB9EB /* TableViewController.swift */,
+				BC2E9EE21E72123200C17DBD /* AccessControllerViewController.swift */,
+				BCC0D0BE1E6CC5C3004BB9EB /* Assets.xcassets */,
+				BCC0D0C01E6CC5C3004BB9EB /* LaunchScreen.storyboard */,
+				BCC0D0C31E6CC5C3004BB9EB /* Info.plist */,
+			);
+			path = yangalHW8;
+			sourceTree = "<group>";
+		};
+		BCC0D0CB1E6CC5C3004BB9EB /* yangalHW8Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BCC0D0CC1E6CC5C3004BB9EB /* yangalHW8Tests.swift */,
+				BCC0D0CE1E6CC5C3004BB9EB /* Info.plist */,
+			);
+			path = yangalHW8Tests;
+			sourceTree = "<group>";
+		};
+		BCC0D0D61E6CC5C3004BB9EB /* yangalHW8UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCC0D0D71E6CC5C3004BB9EB /* yangalHW8UITests.swift */,
+				BCC0D0D91E6CC5C3004BB9EB /* Info.plist */,
+			);
+			path = yangalHW8UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCC0D0B31E6CC5C3004BB9EB /* yangalHW8 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCC0D0DC1E6CC5C3004BB9EB /* Build configuration list for PBXNativeTarget "yangalHW8" */;
+			buildPhases = (
+				BCC0D0B01E6CC5C3004BB9EB /* Sources */,
+				BCC0D0B11E6CC5C3004BB9EB /* Frameworks */,
+				BCC0D0B21E6CC5C3004BB9EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yangalHW8;
+			productName = yangalHW8;
+			productReference = BCC0D0B41E6CC5C3004BB9EB /* yangalHW8.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCC0D0C71E6CC5C3004BB9EB /* yangalHW8Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCC0D0DF1E6CC5C3004BB9EB /* Build configuration list for PBXNativeTarget "yangalHW8Tests" */;
+			buildPhases = (
+				BCC0D0C41E6CC5C3004BB9EB /* Sources */,
+				BCC0D0C51E6CC5C3004BB9EB /* Frameworks */,
+				BCC0D0C61E6CC5C3004BB9EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCC0D0CA1E6CC5C3004BB9EB /* PBXTargetDependency */,
+			);
+			name = yangalHW8Tests;
+			productName = yangalHW8Tests;
+			productReference = BCC0D0C81E6CC5C3004BB9EB /* yangalHW8Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCC0D0D21E6CC5C3004BB9EB /* yangalHW8UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCC0D0E21E6CC5C3004BB9EB /* Build configuration list for PBXNativeTarget "yangalHW8UITests" */;
+			buildPhases = (
+				BCC0D0CF1E6CC5C3004BB9EB /* Sources */,
+				BCC0D0D01E6CC5C3004BB9EB /* Frameworks */,
+				BCC0D0D11E6CC5C3004BB9EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCC0D0D51E6CC5C3004BB9EB /* PBXTargetDependency */,
+			);
+			name = yangalHW8UITests;
+			productName = yangalHW8UITests;
+			productReference = BCC0D0D31E6CC5C3004BB9EB /* yangalHW8UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCC0D0AC1E6CC5C3004BB9EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Aolin Yang";
+				TargetAttributes = {
+					BCC0D0B31E6CC5C3004BB9EB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					BCC0D0C71E6CC5C3004BB9EB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BCC0D0B31E6CC5C3004BB9EB;
+					};
+					BCC0D0D21E6CC5C3004BB9EB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BCC0D0B31E6CC5C3004BB9EB;
+					};
+				};
+			};
+			buildConfigurationList = BCC0D0AF1E6CC5C3004BB9EB /* Build configuration list for PBXProject "yangalHW8" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCC0D0AB1E6CC5C3004BB9EB;
+			productRefGroup = BCC0D0B51E6CC5C3004BB9EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCC0D0B31E6CC5C3004BB9EB /* yangalHW8 */,
+				BCC0D0C71E6CC5C3004BB9EB /* yangalHW8Tests */,
+				BCC0D0D21E6CC5C3004BB9EB /* yangalHW8UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCC0D0B21E6CC5C3004BB9EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC0D0C21E6CC5C3004BB9EB /* LaunchScreen.storyboard in Resources */,
+				BCC0D0BF1E6CC5C3004BB9EB /* Assets.xcassets in Resources */,
+				BCC0D0BD1E6CC5C3004BB9EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCC0D0C61E6CC5C3004BB9EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCC0D0D11E6CC5C3004BB9EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCC0D0B01E6CC5C3004BB9EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2E9EE71E72557400C17DBD /* loginViewController.swift in Sources */,
+				BCC0D0BA1E6CC5C3004BB9EB /* DetailViewController.swift in Sources */,
+				BC2E9EEB1E7279D900C17DBD /* myCartViewController.swift in Sources */,
+				BC2E9EE31E72123200C17DBD /* AccessControllerViewController.swift in Sources */,
+				BCC0D0E81E6CCFE2004BB9EB /* Product.swift in Sources */,
+				BCC0D0E61E6CC7AD004BB9EB /* TableViewController.swift in Sources */,
+				BCC0D0B81E6CC5C3004BB9EB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCC0D0C41E6CC5C3004BB9EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC0D0CD1E6CC5C3004BB9EB /* yangalHW8Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCC0D0CF1E6CC5C3004BB9EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC0D0D81E6CC5C3004BB9EB /* yangalHW8UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCC0D0CA1E6CC5C3004BB9EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCC0D0B31E6CC5C3004BB9EB /* yangalHW8 */;
+			targetProxy = BCC0D0C91E6CC5C3004BB9EB /* PBXContainerItemProxy */;
+		};
+		BCC0D0D51E6CC5C3004BB9EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCC0D0B31E6CC5C3004BB9EB /* yangalHW8 */;
+			targetProxy = BCC0D0D41E6CC5C3004BB9EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCC0D0BB1E6CC5C3004BB9EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCC0D0BC1E6CC5C3004BB9EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCC0D0C01E6CC5C3004BB9EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCC0D0C11E6CC5C3004BB9EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCC0D0DA1E6CC5C3004BB9EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCC0D0DB1E6CC5C3004BB9EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCC0D0DD1E6CC5C3004BB9EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = yangalHW8/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yangal.yangalHW8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BCC0D0DE1E6CC5C3004BB9EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = yangalHW8/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yangal.yangalHW8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BCC0D0E01E6CC5C3004BB9EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = yangalHW8Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yangal.yangalHW8Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yangalHW8.app/yangalHW8";
+			};
+			name = Debug;
+		};
+		BCC0D0E11E6CC5C3004BB9EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = yangalHW8Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yangal.yangalHW8Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yangalHW8.app/yangalHW8";
+			};
+			name = Release;
+		};
+		BCC0D0E31E6CC5C3004BB9EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = yangalHW8UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yangal.yangalHW8UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = yangalHW8;
+			};
+			name = Debug;
+		};
+		BCC0D0E41E6CC5C3004BB9EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = yangalHW8UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yangal.yangalHW8UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = yangalHW8;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCC0D0AF1E6CC5C3004BB9EB /* Build configuration list for PBXProject "yangalHW8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC0D0DA1E6CC5C3004BB9EB /* Debug */,
+				BCC0D0DB1E6CC5C3004BB9EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCC0D0DC1E6CC5C3004BB9EB /* Build configuration list for PBXNativeTarget "yangalHW8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC0D0DD1E6CC5C3004BB9EB /* Debug */,
+				BCC0D0DE1E6CC5C3004BB9EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCC0D0DF1E6CC5C3004BB9EB /* Build configuration list for PBXNativeTarget "yangalHW8Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC0D0E01E6CC5C3004BB9EB /* Debug */,
+				BCC0D0E11E6CC5C3004BB9EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCC0D0E21E6CC5C3004BB9EB /* Build configuration list for PBXNativeTarget "yangalHW8UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC0D0E31E6CC5C3004BB9EB /* Debug */,
+				BCC0D0E41E6CC5C3004BB9EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCC0D0AC1E6CC5C3004BB9EB /* Project object */;
+}
